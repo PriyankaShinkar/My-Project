@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55955" started-at="2017-01-22T04:46:16Z" finished-at="2017-01-22T04:47:12Z">
+    <groups>
+      <group name="P1">
+        <method signature="FbDataProvider.navigateFB(java.lang.String, java.lang.String)[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="navigateFB" class="Yellow_Project.FbDataProvider"/>
+      </group> <!-- P1 -->
+    </groups>
+    <test name="Default test" duration-ms="55955" started-at="2017-01-22T04:46:16Z" finished-at="2017-01-22T04:47:12Z">
+      <class name="Yellow_Project.FbDataProvider">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="setUp" is-config="true" duration-ms="2125" started-at="2017-01-22T04:46:16Z" finished-at="2017-01-22T04:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateFB(java.lang.String, java.lang.String)[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="navigateFB" duration-ms="6379" started-at="2017-01-22T04:46:19Z" data-provider="pages" finished-at="2017-01-22T04:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateFB -->
+        <test-method status="PASS" signature="navigateFB(java.lang.String, java.lang.String)[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="navigateFB" duration-ms="8311" started-at="2017-01-22T04:46:25Z" data-provider="pages" finished-at="2017-01-22T04:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateFB -->
+        <test-method status="PASS" signature="navigateFB(java.lang.String, java.lang.String)[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="navigateFB" duration-ms="6797" started-at="2017-01-22T04:46:33Z" data-provider="pages" finished-at="2017-01-22T04:46:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Facebook - Log In or Sign Up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateFB -->
+        <test-method status="PASS" signature="enterEmail()[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="enterEmail" duration-ms="113" started-at="2017-01-22T04:46:40Z" depends-on-methods="Yellow_Project.FbDataProvider.navigateFB" finished-at="2017-01-22T04:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method status="PASS" signature="enterPwd()[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="enterPwd" duration-ms="50" started-at="2017-01-22T04:46:40Z" depends-on-methods="Yellow_Project.FbDataProvider.enterEmail" finished-at="2017-01-22T04:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPwd -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="login" duration-ms="32054" started-at="2017-01-22T04:46:40Z" depends-on-methods="Yellow_Project.FbDataProvider.enterPwd" finished-at="2017-01-22T04:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Yellow_Project.FbDataProvider@10bdf5e5]" name="tearDown" is-config="true" duration-ms="104" started-at="2017-01-22T04:47:12Z" finished-at="2017-01-22T04:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Yellow_Project.FbDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

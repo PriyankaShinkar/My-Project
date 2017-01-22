@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Automation Tests">
+	<test name = "Smoke Tests">
+		<!-- <groups>
+			<run>
+				<include name = "P1"></include>
+			</run>
+		</groups> -->
+		<classes>
+			<class name = "Yellow_Project.FacebookTests"></class>
+			<class name = "Yellow_Project.FbDataProvider"></class>
+		</classes>
+	</test>	
+</suite>

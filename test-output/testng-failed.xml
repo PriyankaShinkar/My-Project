@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Tests]">
+  <test name="Smoke Tests(failed)">
+    <classes>
+      <class name="Yellow_Project.FbDataProvider">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Yellow_Project.FbDataProvider -->
+      <class name="Yellow_Project.FacebookTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateFB"/>
+          <include name="setUp"/>
+          <include name="enterPwd"/>
+          <include name="enterEmail"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Yellow_Project.FacebookTests -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [Automation Tests] -->
